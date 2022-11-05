@@ -1,0 +1,140 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    
+    background-color: #AEBBB0;
+    
+}
+
+h1{
+    text-align: center;
+    color: white; 
+    background-color: #BC705B;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+#affichage {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+        width: 97%;
+        margin: 20px;
+}
+
+#affichage td,
+#affichage th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#affichage tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#affichage tr:hover {
+    background-color: #ddd;
+}
+
+#affichage th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #086ad3;
+    color: white;
+}
+.fas.fa-edit,
+.fas.fa-eye,
+.fas.fa-plus-square,
+.fas.fa-trash{
+    font-size: 28px;
+        color: #086ad3;
+}
+
+form{
+    max-width: 50vw;
+    padding: 5% 25% 0;
+}
+
+input[type=text],
+input[type=numbre],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #086ad3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #BC705B;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.ajouter{
+    display: flex;
+        flex-direction: row-reverse;
+}
+
+button{
+    
+            background-color: #086ad3;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 12px 45%;
+             border-radius: 18px;
+        
+}
+button:hover{
+    background-color: #BC705B;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.delete{
+    padding-top: 0;
+}
+.detail{
+    text-align: center;
+}
+table a, h2 a{
+    text-decoration: none;
+    color: #BC705B;
+    margin-left: 20px;
+}
